@@ -363,7 +363,7 @@ class USTs:
             sns.set_theme(context='notebook', style='darkgrid')
             sns.lineplot(data=spread_df, x=spread_df.index, y='Par curve residual', color='darkblue', linewidth=1)
             sns.despine()
-            plt.title(f"{trade_row['Long bond']} / {trade_row['Short bond']} Residual to Par curve", fontdict={'size': 16,
+            plt.title(f"{trade_row['Long bond']} / {trade_row['Short bond']} Residual to Par Curve", fontdict={'size': 16,
                                                                                                             'weight': 'normal',
                                                                                                             'family': 'sans-serif'})
 
