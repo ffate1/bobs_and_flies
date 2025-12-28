@@ -8,3 +8,4 @@ typing
 datetime
 pandas_market_calendars
 scipy
+plotly
